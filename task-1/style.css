@@ -1,0 +1,162 @@
+/* General Reset */
+body, h1, h2, p, ul, li, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: #0f172a; /* Navy blue background to match image */
+    color: #f8f9fa; /* Soft white for text */
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: auto;
+    background: #1e293b; /* Slightly lighter navy for contrast */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    animation: fadeIn 2s ease-in;
+  }
+  
+  /* Header Section */
+  .header-section {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  
+  .profile-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #38bdf8; /* Soft blue */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    margin-bottom: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .profile-image img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+  }
+  
+  header h1 span {
+    color: #38bdf8; /* Light blue text */
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    color: #94a3b8; /* Soft gray for subtitle */
+  }
+  
+  /* Sections */
+  section {
+    margin: 20px 0;
+  }
+  
+  h2 {
+    color: #38bdf8; /* Light blue */
+    border-bottom: 2px solid #38bdf8;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  li {
+    background: #334155; /* Navy shade for list items */
+    color: #f8f9fa; /* White text */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    transition: transform 0.3s, background 0.3s;
+  }
+  
+  li:hover {
+    transform: scale(1.1);
+    background: #38bdf8; /* Highlight blue */
+    color: #0f172a; /* Contrast text */
+  }.thanks-section {
+    margin-top: 30px;
+    font-size: 16px;
+    color: #5b6a76;
+    text-align: center;
+    background-color: #e8f5fd; /* Light pastel background */
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  .thanks-section span {
+    font-weight: bold;
+    color: #007acc; /* Highlight for Internee.pk */
+  }
+  
+  /* Fade-in Animation */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Button */
+  button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background: #38bdf8;
+    color: #0f172a;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+  }
+  
+  button:hover {
+    background: #0ea5e9; /* Slightly darker blue */
+    transform: scale(1.1);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  
+    header h1 {
+      font-size: 1.8rem;
+    }
+  
+    header p {
+      font-size: 1rem;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  
